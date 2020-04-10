@@ -12,5 +12,7 @@ public class MyProj5 {
 		int a = y + 10;
 		System.out.println(a);
 		
+		
+		
 	}
 }

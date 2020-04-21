@@ -1,15 +1,17 @@
+import java.util.Arrays;
 
 public class MyProj20 {
 
 	public static void main(String[] args) {
+		/* int[] grades = new int[10]; */
 		
-		for(int i = 9; i >= 0; i--) {
-			for(int k = i; k >= 0; k--) {
-				System.out.print(k + " ");
-			}
-			System.out.println();
-		}
-
+		int[] grades = {10, 9, 8, 7, 6, 5, 4, 3};
+		grades[1] = 900;
+		
+		/*grades[0] = 10; 
+		System.out.println(grades[1]);*/
+		
+		System.out.println(Arrays.toString(grades));
 	}
 
 }

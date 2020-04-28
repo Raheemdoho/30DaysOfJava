@@ -6,7 +6,9 @@ public class MyProj36 {
 		user.firstName = "Sub";
 		user.lastName = "Scriber";
 		
-		user.output();
+		//user.output();
+		
+		//user.output(200);
 		
 	}
 

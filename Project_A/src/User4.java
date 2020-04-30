@@ -1,4 +1,6 @@
-public class User3 {
+import java.util.List;
+
+public class User4 {
 	private String firstName;
 	private String lastName;
 
@@ -26,7 +28,10 @@ public class User3 {
 		lastName = ln;
 	}
 
-	public static void printUser(User3 u) {
-		System.out.println(u.getFullName());
+	public static void printUsers(List<User4> users) {
+		for(User4 u : users) {
+			System.out.println(u.getFullName());
+		}
+	
 	}
 }

@@ -16,7 +16,7 @@ public class MyProj39 {
 		users.add(you);
 		users.add(me);
 		
-		System.out.println(users.get(1).getFullName());
+		System.out.println(users.get(0).getFullName());
 	}
 
 }
